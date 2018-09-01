@@ -1,0 +1,13 @@
+DFA NFA simulator
+###########################################################################################################################################################################################################
+This is a lex program which implements a generic table driven lexical analyzer to verify a given input string against a DFA or NFA represented in form of a transition table
+
+******************************************************************* NOTE: Attached input.txt and specification.txt, So modify it accordingly ********************************************************************
+
+To run the program:
+1)Go to the project directory
+2)To build the lex program run "make" command without quotes
+3)To run the executable run the command as given in the question "./mylex _ _ _ _" without quotes and replacing those _ with corresponding input, where first space is to tell whether it is a NFA or DFA and second _ specifies number of states, third _ specifies number of final states and fourth _ specifies the number of input symbols
+4)To remove executable and output file run "make remove" command without quotes
+
+###########################################################################################################################################################################################################
